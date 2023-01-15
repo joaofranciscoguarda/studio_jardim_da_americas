@@ -4,6 +4,7 @@ import {
 } from "@chakra-ui/react";
 import useScrollDirection from "../../utils/ScrollDirection";
 
+
 export const Header = () => {
   const scrollDirection = useScrollDirection();
 
@@ -28,6 +29,7 @@ export const Header = () => {
       alignContent={"center"}
     
     >
+      
       <img
         src='../../../src/assets/icon.svg'
         alt=''

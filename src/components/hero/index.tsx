@@ -1,5 +1,5 @@
 import { Section } from "../section";
-import HeroImgEdited from "../../assets/HeroImgEdited.jpeg";
+import HeroImgEnhanced from "../../assets/HeroImgEnhanced.jpg";
 import {
   Button,
   Flex,
@@ -10,17 +10,15 @@ export const Hero = () => {
   return (
     <Section
       id='hero'
-      bgImg={HeroImgEdited}
+      bgImg={HeroImgEnhanced}
       bgRepeat='no-repeat'
       bgSize={"cover"}
-      bgPos={'center'}
-    >
+      bgPos={"center"}>
       <Flex
         minW={"100%"}
         minH={"100%"}
         justifyContent='center'
-        flexDirection={"column"}
-      >
+        flexDirection={"column"}>
         <Text
           fontSize={["38px", "64px"]}
           textShadow={
@@ -33,7 +31,9 @@ export const Hero = () => {
           <span>Kitnet mobiliada</span> próximo a
           @UFPR
         </Text>
-        <Button maxW={["50%", "20%"]} marginTop='20px'>
+        <Button
+          maxW={["50%", "20%"]}
+          marginTop='20px'>
           Ver Fotos
         </Button>
       </Flex>
