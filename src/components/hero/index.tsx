@@ -20,7 +20,7 @@ export const Hero = () => {
         justifyContent='center'
         flexDirection={"column"}>
         <Text
-          fontSize={["38px", "64px"]}
+          fontSize={["38px", "51px", "64px"]}
           textShadow={
             "0px 6px 6px rgba(0,0,0,0.7)"
           }
@@ -32,7 +32,7 @@ export const Hero = () => {
           @UFPR
         </Text>
         <Button
-          maxW={["50%", "20%"]}
+          maxW={["50%", "35%", "20%"]}
           marginTop='20px'>
           Ver Fotos
         </Button>
