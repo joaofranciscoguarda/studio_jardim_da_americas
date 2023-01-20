@@ -15,7 +15,9 @@ export const theme = extendTheme({
         bg: "background",
         color: "white",
         boxSizing: "border-box",
-        fontFamily: "body"
+        fontFamily: "body",
+        scrollBehavior: "smooth",
+        transition: "all .5s ease",
       },
       span: {
         color: "orange",
@@ -30,14 +32,15 @@ export const theme = extendTheme({
       variants: {
         primary: {
           bg: "white",
-          borderRadius: "4px",
+          borderRadius: "8px",
           h: { base: "38px", md: "48px" },
           border: "none",
-          borderColor: "transparent",
           color: "background",
           fontSize: { base: "14px", md: "16px" },
           fontWeight: "600",
-          _hover: { transform: "scale(1.01)" },
+          _hover: {
+            transform: "scale(1.05)",
+          },
         },
       },
     },
