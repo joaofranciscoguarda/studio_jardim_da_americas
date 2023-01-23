@@ -21,7 +21,8 @@ export const Section = ({
       minHeight={["100vh"]}
       paddingX={["5%", "10%"]}
       paddingY={["5%"]}
-      {...rest}>
+      {...rest}
+      position={"relative"}>
       {children}
     </Flex>
   );
