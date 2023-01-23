@@ -5,6 +5,7 @@ import {
   Flex,
   Text,
 } from "@chakra-ui/react";
+import { PageShadow } from "../pageShadow";
 
 export const Hero = () => {
   return (
@@ -37,6 +38,11 @@ export const Hero = () => {
           Ver Fotos
         </Button>
       </Flex>
+      <PageShadow
+        width='100%'
+        height='20%'
+        left='0'
+        bottom='0'></PageShadow>
     </Section>
   );
 };
