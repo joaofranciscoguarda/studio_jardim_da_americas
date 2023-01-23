@@ -16,6 +16,8 @@ import {
   InputGroup,
   InputLeftAddon,
   InputRightAddon,
+  LinkBox,
+  LinkOverlay,
   Select,
   Stack,
   Text,
@@ -107,7 +109,8 @@ export const Header = () => {
       alignContent={"center"}
       justifyContent={"space-between"}
       paddingX={"5%"}>
-      <Flex
+      <LinkBox
+        display={"flex"}
         flexDir={"column"}
         alignItems={"center"}
         justifyContent={"center"}>
@@ -115,14 +118,16 @@ export const Header = () => {
           alt='Studio Jardim'
           src='../../../src/assets/icon.svg'
           width={"3em"}
+          alignSelf={"center"}
         />
-        <Text
+        <LinkOverlay
+          href='#hero'
           fontSize={"1.1em"}
           textAlign={"center"}
           fontFamily={"Wellfleet, sans-serif"}>
           Studio Jardim
-        </Text>
-      </Flex>
+        </LinkOverlay>
+      </LinkBox>
       {query > headerBreakPoint ? (
         <NavBarButtons
           direction={"row"}
