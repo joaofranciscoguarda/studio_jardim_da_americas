@@ -18,15 +18,21 @@ const House = () => {
           Fotos - Condomínio e Kitnet Mobiliada
         </Text>
 
-        <Box width={"100%"} height={"500px"}>
-          <Carousel>
-            <Img src='../../../src/assets/carouselImgs/studio-jardim-foto1-kitnet-mobiliada-ufpr-puc-estudante-centro-politecnico.jpeg' />
-            <Img src='../../../src/assets/carouselImgs/studio-jardim-foto12-kitnet-mobiliada-ufpr-puc-estudante-centro-politecnico-1024x576.jpeg' />
-            <Img src='../../../src/assets/carouselImgs/studio-jardim-foto13-kitnet-mobiliada-ufpr-puc-estudante-centro-politecnico-720x405.jpeg' />
-            <Img src='../../../src/assets/carouselImgs/studio-jardim-foto17-kitnet-mobiliada-ufpr-puc-estudante-centro-politecnico.jpeg' />
-            <Img src='../../../src/assets/carouselImgs/studio-jardim-foto7-kitnet-mobiliada-ufpr-puc-estudante-centro-politecnico.jpeg' />
-            <Img src='../../../src/assets/carouselImgs/WhatsApp-Image-2021-06-14-at-16.39.58-1024x576.jpeg' />
-            <Img src='../../../src/assets/carouselImgs/WhatsApp-Image-2021-10-09-at-08.06.46-4.jpeg' />
+        <Box
+          width={["100%", "", "80%"]}
+          height={"500px"}>
+          <Carousel animation='zoom'
+            autoplay
+          // renderCenterLeftControls={}
+          >
+            <Img src='../../../src/assets/carouselImgs/1.png' />
+            <Img src='../../../src/assets/carouselImgs/2.png' />
+            <Img src='../../../src/assets/carouselImgs/3.png' />
+            <Img src='../../../src/assets/carouselImgs/4.png' />
+            <Img src='../../../src/assets/carouselImgs/5.png' />
+            <Img src='../../../src/assets/carouselImgs/6.png' />
+            <Img src='../../../src/assets/carouselImgs/7.png' />
+            <Img src='../../../src/assets/carouselImgs/8.png' />
           </Carousel>
         </Box>
       </Flex>
